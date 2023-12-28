@@ -1,0 +1,32 @@
+.container-fluid{
+    display:flex;
+    background-color: var(--green);
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#links{
+    flex-grow: 1;
+    display: flex;
+    gap:20px;
+    justify-content: right;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    align-items: center;
+    font-size: 50px;
+}
+.link {
+    cursor: pointer;
+    &:hover{
+        color: white;
+    }
+    
+}

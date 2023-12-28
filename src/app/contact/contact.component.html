@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Contact</h1>
+
+    <ul class="social-media">
+        <a href="mailto:lyricistdd@gmail.com" style = "text-decoration:none"><li><i class='bx bxl-gmail'></i></li></a>
+        <a href="https://www.linkedin.com/in/dharanidharan-p/"style = "text-decoration:none"><li><i class='bx bxl-linkedin'></i></li></a> 
+        <a href="https://grabcad.com/dharanidharan.p-2"style = "text-decoration:none"><li><i class='bx bx-shape-triangle'></i></li></a>
+    </ul>
+
+    <ul class="contact-info">
+        <li *ngFor="let contact of contactList">
+            <h3>Mobile: {{contact.mobile}}</h3>
+            <h3>Mail to: {{contact.mail}}</h3>
+        </li>
+    </ul>
+</div>

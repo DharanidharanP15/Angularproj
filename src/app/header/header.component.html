@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="logo">
+        <i class='bx bx-fast-forward'></i>
+    </div>
+    <div id="links">
+        <a class ="link" routerLink="/about">About</a>
+        <a class ="link" routerLink="/personal-info" routerActive="active">Personal-Info</a>
+        <a class ="link" routerLink="education">Education</a>
+        <a class ="link" routerLink="work-experince">Experience</a>
+        <a class ="link" routerLink="skills">Skills</a>
+        <a class ="link" routerLink="projects">Projects</a>
+        <a class ="link" routerLink="contact">Contact</a>
+    </div>
+</div>
+
+<app-about appResponsive></app-about>
+<app-personal-info appResponsive></app-personal-info>
+<div class="container">
+    <app-education appResponsive></app-education>
+    <app-work-experience appResponsive></app-work-experience>
+</div>
+<app-skills appResponsive></app-skills>
+<app-projects appResponsive></app-projects>
+<app-contact appResponsive></app-contact>
